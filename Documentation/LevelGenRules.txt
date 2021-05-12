@@ -1,0 +1,91 @@
+======= PROCEDURAL LEVEL GENERATION RULES ======= DONE
+
+
+
+===== SECTIONS ===== DONE
+
+1. Each normal section consists of 10 to 20 5x5 blocks. DONE
+
+2. Death zones consist of 1 or 2 blocks. DONE
+
+3. Moving sections consist of 1 to 3 blocks. DONE
+
+4. There are 5 section types to choose from per level.
+   2 normal zones, 1 death zone, 2 moving zones (1 horizontal, 1 vertical). DONE
+   
+5. Death zones and moving zones have no spawns. DONE
+
+6. The type of a new section is chosen from 1 of 7 at random. DONE
+
+7. Each level generates 10 sections total, and then a level-complete zone. DONE 
+
+8. When player reaches a section, the section 2 sections
+   before it gets destroyed (if existing). DONE
+   
+9. Consecutive platforms cannot be more than double jumping distance away
+   from each other, horizontally or vertically. DONE
+
+
+
+===== COLLECTABLES ===== DONE
+
+1. Per section, there can only be 0 to 5 collectables. No more than 5. DONE
+
+2. Each block in a section has a 1 in 5 (20%) chance of spawning a collectable. DONE
+
+3. Each collectable spawned appears at the middle point of its platform block. DONE
+
+
+
+===== ENEMIES ===== DONE
+
+1. Per section, there are only 4 options: no enemies, only Lesser Sprites, only 
+   Greater Sprites, or both. The option is chosen at random. DONE
+   
+2. Each enemy spawned appears at 1 of 3 spawn points of its platform block. DONE
+
+=== Level 1 & Level 2 === DONE
+
+3. Each level has 2 enemy types: a Greater Sprite type and a Lesser Sprite type. DONE
+
+4. Per section (if allowed), there can be 1 to 4 Lesser Sprites. DONE
+
+5. Each block has a 1 in 4 (25%) chance of spawning a Lesser Sprite. DONE
+
+6. Per section (if allowed), there can be 1 or 2 Greater Sprites. DONE
+
+7. Each block has a 1 in 2 (50%) chance of spawning a Greater Sprite. DONE
+
+=== Level 3 === DONE
+
+8. Level 3 has only 1 enemy type: the Paladins. DONE
+
+7. Per section, there can only be 1 Paladin generated at a time. Paladin has 50% spawn chance. DONE
+
+8. When a section is spawned, there are 2 options: Paladin or no Paladin.
+   The option is chosen at random. DONE
+
+9. When Calamitous attacks you and goes back up, another Paladin is spawned. MUST BE DONE IN CALAMITOUS AI CODE
+
+
+
+===== POWER UPS ===== DONE
+
+1. Excluding instant-kill, per section there can only be 3 power ups at max. DONE
+
+2. Each block in a section has a 1 in 3 (33%) chance of spawning a power up. DONE
+   
+3. 1 of all possible regular power ups can spawn at each successful roll. DONE
+
+4. Level 1 has 3 power up types: laser, health, shield. DONE
+
+5. Level 2 has 6 power up types: Level 1 power ups, immunity, teleport, double damage. DONE
+
+6. Level 3 has the power ups of Levels 1 & 2, and a special 7th power up: instant-kill. DONE
+
+7. In Level 3, the chance of instant-kill power up spawning at section creation is 1 in 2 (50%). DONE
+
+8. When Calamitous attacks you and goes back up, both regular and instant-kill
+    power ups may or may not be respawned (33% chance & 66% chance respectively). MUST BE DONE IN CALAMITOUS AI CODE
+
+

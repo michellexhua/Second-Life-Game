@@ -1,0 +1,7 @@
+﻿Premise: “Second Life”
+	You’re a hero, your people’s champion. Tired of constant battles and wars, you are summoned to Amaranth—a hidden realm meant to be a safe haven for weary heroes.
+But Amaranth’s founder Dr. Cosmos has become corrupted and taken over as the evil Calamitous. Now Amaranth is in need of its own hero.
+
+Your goal is to gain enough power to face Calamitous and get your body back by nightfall—otherwise you will become one of the mindless Hero Sprites under his command.
+As you travel through the 3 levels of Amaranth, you must face and defeat Calamitous's minions. Along the way, special power ups will be provided to you to aid you in
+your quest.
